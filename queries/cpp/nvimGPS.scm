@@ -1,4 +1,3 @@
-
 ; Class
 ((class_specifier
 	name: [(type_identifier) @class-name (qualified_identifier) @multi-class-class]
@@ -8,12 +7,12 @@
 ((struct_specifier
 	name: [(type_identifier) @class-name (qualified_identifier) @multi-class-class]
 	body: (field_declaration_list)) @scope-root)
-
-; Namespace
-((namespace_definition
-	name: (identifier) @class-name
-	body: (declaration_list)) @scope-root)
-
+;
+;    ; Namespace
+;    ((namespace_definition
+;    	name: (identifier) @class-name
+;    	body: (declaration_list)) @scope-root)
+;
 ; Function
 ((function_definition
 	declarator: (function_declarator
