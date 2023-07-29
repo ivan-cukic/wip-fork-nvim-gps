@@ -1,6 +1,8 @@
-# ⚠️ Deprecated! Use [nvim-navic](https://github.com/SmiteshP/nvim-navic) instead of this plugin
+# Upstream deprecated
 
-nvim-navic is an improved version of nvim-gps (a version 2.0!). It accompishes the same task as this plugin, but uses LSP instead of Treesitter. It also adds ability to have coloured icons!
+The upstream repository is deprecated in favor of nvim-navic which uses LSP instead of TreeSitter.
+
+As both of these approaches have benefits, I'm keeping this fork somewhat alive -- mainly for C++ support.
 
 # 🛰️ nvim-gps
 
